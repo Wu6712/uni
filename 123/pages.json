@@ -1,0 +1,158 @@
+{
+	"easycom": {
+		// npm安装的方式不需要前面的"@/"，下载安装的方式需要"@/"
+		// npm安装方式
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+		// 下载安装方式
+		// "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "预约记录"
+			}
+		}, {
+			"path": "pages/personal/personal",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/index/seatReservation/seatReservation",
+			"style": {
+				"navigationBarTitleText": "座位预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/consultationAnnouncement/consultationAnnouncement",
+			"style": {
+				"navigationBarTitleText": "咨询公告",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/index/consultationAnnouncement/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "用户登录",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/login/regedit/regedit",
+			"style": {
+				"navigationBarTitleText": "用户注册",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/changePassword/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/changeInfo/changeInfo",
+			"style": {
+				"navigationBarTitleText": "修改信息",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/personal/creditScoreManagement/creditScoreManagement",
+			"style": {
+				"navigationBarTitleText": "信用分",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/sign/sign",
+			"style": {
+				"navigationBarTitleText": "博物馆预约",
+				"enablePullDownRefresh": false
+				// "app-plus": {
+				// 	"titleNView": {
+				// 		"buttons": [{
+				// 			"color": "#FFFFFF",
+				// 			"fontSize": "45rpx",
+				// 			"text": "\ue612",
+				// 			"fontSrc": "static/ttf/uni.ttf"
+
+				// 		}]
+				// 	}
+				// }
+			}
+		}, {
+			"path": "pages/reservation/reservation",
+			"style": {
+				"navigationBarTitleText": "预约",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/signs/signs",
+			"style": {
+				"navigationBarTitleText": "签到",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/reservation/detail/detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+
+		}
+	    ,{
+            "path" : "pages/sign/ma/ma",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "图书馆预约",
+		"navigationBarBackgroundColor": "#007AFF",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	},
+	"tabBar": {
+		"list": [{
+				"selectedIconPath": "static/templateHL.png",
+				"iconPath": "static/template.png",
+				"pagePath": "pages/index/index",
+				"text": "预约记录"
+			},
+			{
+				"selectedIconPath": "static/templateHL.png",
+				"iconPath": "static/template.png",
+				"pagePath": "pages/sign/sign",
+				"text": "预约"
+			},
+			{
+				"selectedIconPath": "static/templateHL.png",
+				"iconPath": "static/template.png",
+				"pagePath": "pages/personal/personal",
+				"text": "个人中心"
+			}
+		]
+	}
+}
